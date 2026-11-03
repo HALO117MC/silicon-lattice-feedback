@@ -1,0 +1,33 @@
+name: Posible error científico
+description: Señalar una afirmación, ecuación o evaluación que necesita revisión
+title: "[Ciencia] "
+body:
+  - type: markdown
+    attributes:
+      value: "No compartas datos académicos personales. Las observaciones requieren revisión; abrir este Issue no cambia la versión oficial."
+  - type: input
+    id: location
+    attributes:
+      label: Módulo, sección y actividad
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: Afirmación o resultado observado
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Razonamiento, hipótesis, dominio y unidades
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Fuente verificable y localizador, si están disponibles
+  - type: textarea
+    id: correction
+    attributes:
+      label: Corrección propuesta o contraejemplo reproducible
