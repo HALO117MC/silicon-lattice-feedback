@@ -1,0 +1,37 @@
+name: Error de funcionamiento
+description: Informar un problema reproducible de Beta 0.03
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Este reporte será público. No incluyas datos personales, exportaciones académicas, cookies ni credenciales."
+  - type: input
+    id: module
+    attributes:
+      label: Módulo o pantalla
+      placeholder: "M0.01 — Laboratorio"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado y resultado observado
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Navegador, sistema y tamaño aproximado de pantalla
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacidad
+      options:
+        - label: Revisé que el reporte no contiene datos personales ni credenciales.
+          required: true
