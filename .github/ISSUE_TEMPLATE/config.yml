@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Abrir SILICON LATTICE Beta 0.03
+    url: https://silicon-lattice-public.irving2017cabs.workers.dev/
+    about: La aplicación funciona sin iniciar sesión. GitHub requiere cuenta para enviar un Issue.
