@@ -1,0 +1,23 @@
+name: Sugerencia
+description: Proponer una mejora de usabilidad o aprendizaje
+title: "[Sugerencia] "
+body:
+  - type: markdown
+    attributes:
+      value: "Los comentarios son públicos. No incluyas información personal ni exportaciones de tu progreso."
+  - type: textarea
+    id: need
+    attributes:
+      label: Necesidad o dificultad
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Mejora propuesta
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Módulo o dispositivo relacionado, si corresponde
